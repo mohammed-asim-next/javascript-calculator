@@ -1,0 +1,48 @@
+#main{
+    width: 300px;
+    height: 520px;
+    border-radius: 15px;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#main>div{
+    /* border: 2px solid white; */
+    height: 75px;
+    width: 260px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+#main>div input{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: end;
+    border: none;
+    font-size: 20px;
+}
+#main>div  button{
+    height: 60px;
+    width: 60px;
+    /* padding: 10px; */
+    border: none;
+    border-radius: 50%;
+}
+.d1{
+    background-color: rgb(99, 95, 95);
+    font-size: 20px;
+    color: white;
+}
+.d2{
+    background-color: orange;
+    font-size: 20px;
+    color: white;
+}
